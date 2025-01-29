@@ -1,0 +1,12 @@
+
+.button-custom {
+    width: 100%; 
+    border-radius: 0; 
+    background-color: white; 
+    color: black;
+}
+
+.button-custom:hover {
+    background-color: black; 
+    color: white;
+}

@@ -1,0 +1,57 @@
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: auto;
+  right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.carousel-control-prev {
+  color: black;
+}
+
+.important-style {
+  bottom: 0px !important;
+  height: 10px !important;
+}
+
+.height-resize {
+  height: 110vh !important; 
+  padding: 0px;
+}
+
+.button-hold {
+  color: #333 !important; 
+  text-decoration: none !important;
+} 
+.button-hold:hover {
+  color: #ffc107 !important; 
+  text-decoration: none;
+}
+
+@media (min-width: 768px) and (max-width: 1004px) {
+  .height-resize{
+    height: 90vh !important;
+    padding: 20px;
+  }
+  
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+  .height-resize{
+    height: auto !important;
+    padding: 20px;
+  }
+  
+}
+
+@media (min-width: 724px) and (max-width: 1004px) {
+  .bg-tablet-resize {
+    height: 70% !important;
+  }
+}
+
+

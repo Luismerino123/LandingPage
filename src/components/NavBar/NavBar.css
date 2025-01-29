@@ -1,0 +1,26 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Druk+Wide:wght@900&display=swap');
+
+#NavBar-content {
+  background-color: transparent !important; 
+  position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1030; 
+}
+
+.navbar-brand-foodies {
+  font-family: 'Druk Text Wide', sans-serif; 
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+
+
+
+
